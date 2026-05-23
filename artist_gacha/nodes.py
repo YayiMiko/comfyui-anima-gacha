@@ -1,3 +1,4 @@
+import hashlib
 import json
 import os
 import random
@@ -37,6 +38,7 @@ class GachaPromptBuilder:
                 "seed": ("INT", {"default": 0, "min": 0, "max": 0xFFFFFFFFFFFFFFFF}),
                 "artist_count": ("INT", {"default": 1, "min": 1, "max": 5}),
                 "min_priority": ("INT", {"default": 1, "min": 0, "max": 10}),
+                "mode": (["random", "cycle"], {"default": "random"}),
             },
             "optional": {
                 "subject": ("STRING", {"default": "", "multiline": False}),
@@ -63,6 +65,7 @@ class GachaPromptBuilder:
         seed,
         artist_count,
         min_priority,
+        mode="random",
         subject="",
         extra_tags="",
         quality="masterpiece",
@@ -76,7 +79,12 @@ class GachaPromptBuilder:
         rng = random.Random(seed)
 
         count = min(artist_count, len(artists))
-        picked = rng.sample(artists, count)
+
+        if mode == "cycle":
+            picked = self._cycle_pick(artists, count, artist_count, min_priority)
+        else:
+            picked = rng.sample(artists, count)
+
         names = [a["name"] for a in picked if a["name"]]
         artist_string = ", ".join(names) if names else "(no artist)"
 
@@ -107,6 +115,53 @@ class GachaPromptBuilder:
             artist_string,
             json.dumps(metadata, ensure_ascii=False, indent=2),
         )
+
+    def _state_path(self, artist_count, min_priority):
+        key = f"{artist_count}_{min_priority}"
+        h = hashlib.md5(key.encode()).hexdigest()[:8]
+        return os.path.join(OUTPUT_DIR, f"_cycle_state_{h}.json")
+
+    def _cycle_pick(self, artists, count, artist_count, min_priority):
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        state_path = self._state_path(artist_count, min_priority)
+
+        state = {"order": [], "index": 0}
+        if os.path.exists(state_path):
+            try:
+                with open(state_path, "r", encoding="utf-8") as f:
+                    state = json.load(f)
+            except (json.JSONDecodeError, KeyError):
+                pass
+
+        order = state.get("order", [])
+        idx = state.get("index", 0)
+
+        # Validate existing order matches current pool (by name)
+        current_names = {a["name"] for a in artists}
+        order_names = set(order)
+        if order_names != current_names or idx >= len(order):
+            # Pool changed or cycle exhausted: reshuffle
+            order = [a["name"] for a in artists]
+            random.shuffle(order)
+            idx = 0
+
+        # Pick `count` consecutive entries
+        picked_names = []
+        for i in range(count):
+            pos = (idx + i) % len(order)
+            picked_names.append(order[pos])
+
+        # Advance pointer
+        idx = (idx + count) % len(order)
+        state["order"] = order
+        state["index"] = idx
+
+        with open(state_path, "w", encoding="utf-8") as f:
+            json.dump(state, f)
+
+        # Map names back to artist dicts
+        name_map = {a["name"]: a for a in artists}
+        return [name_map[n] for n in picked_names if n in name_map]
 
     def _load_artists(self, min_priority):
         with open(ARTIST_DB_PATH, "r", encoding="utf-8") as f:
