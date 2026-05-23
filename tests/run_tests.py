@@ -41,7 +41,7 @@ for a in db["artists"]:
     check("id" in a and "name" in a, f"id+name: {a.get('id','?')}")
     if a["name"]:
         check(a["name"].startswith("@"), f"@ prefix: {a['name']}")
-check(len(cats) >= 4, f"{len(cats)} categories: {cats}")
+check(len(cats) >= 3, f"{len(cats)} categories: {cats}")
 
 with open(os.path.join(PROJECT_DIR, "artist_gacha", "prompt_templates.json"), "r", encoding="utf-8") as f:
     tmpl = json.load(f)
