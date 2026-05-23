@@ -86,6 +86,10 @@ def main():
 
         name = entry["name"]
         current_priority = entry.get("priority", 1)
+
+        if entry.get("reviewed"):
+            continue  # skip already reviewed
+
         status = {0: "差", 1: "未评", 2: "好"}.get(current_priority, "?")
 
         # Open all images for this artist

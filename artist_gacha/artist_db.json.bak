@@ -5,45 +5,40 @@
       "name": "@ask",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "anmi",
       "name": "@anmi",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "fuzichoco",
       "name": "@fuzichoco",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "rurudo",
       "name": "@rurudo",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "yoneyama_mai",
       "name": "@yoneyama mai",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "miv4t",
@@ -57,9 +52,8 @@
       "name": "@hiten",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "swav",
@@ -73,18 +67,16 @@
       "name": "@rella",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "liduke",
       "name": "@liduke",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "hou",
@@ -119,9 +111,8 @@
       "name": "@abec",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "tony",
@@ -149,9 +140,8 @@
       "name": "@rosu",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "kawacy",
@@ -179,9 +169,8 @@
       "name": "@shiratama",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "itou_life",
@@ -223,9 +212,8 @@
       "name": "@mignon",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "namori",
@@ -239,18 +227,16 @@
       "name": "@harayutaka",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "gomzi",
       "name": "@gomzi",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "ganbare_duncan",
@@ -264,9 +250,8 @@
       "name": "@kuroduck",
       "category": "illustrator",
       "subcategory": "厚涂半写实",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "hiroki_shiroi",
@@ -280,18 +265,16 @@
       "name": "@fumio",
       "category": "illustrator",
       "subcategory": "厚涂半写实",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "suzuhara_yuki",
       "name": "@suzuhara yuki",
       "category": "illustrator",
       "subcategory": "厚涂半写实",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "soejima_shigenori",
@@ -319,9 +302,8 @@
       "name": "@guraburu",
       "category": "illustrator",
       "subcategory": "设计感",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "saitom",
@@ -342,18 +324,16 @@
       "name": "@arknights style",
       "category": "game",
       "subcategory": "游戏美术",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "no_artist",
       "name": "",
       "category": "control",
       "subcategory": "对照组",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "agoto",
