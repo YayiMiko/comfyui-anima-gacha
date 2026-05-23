@@ -21,7 +21,7 @@
       "name": "@fuzichoco",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 2,
+      "priority": 0,
       "reviewed": true
     },
     {
@@ -165,7 +165,7 @@
       "name": "@hews",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 2,
+      "priority": 0,
       "reviewed": true
     },
     {
@@ -477,7 +477,7 @@
       "name": "@tamaki",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 2,
+      "priority": 0,
       "reviewed": true
     },
     {
