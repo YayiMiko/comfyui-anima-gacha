@@ -196,13 +196,17 @@ class GachaSaveImage:
         }
 
     def save(self, images, artist_string, metadata_json):
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
-
         try:
             meta = json.loads(metadata_json)
             seed = meta.get("seed", int(time.time()))
+            count = meta.get("artist_count", 1)
         except (json.JSONDecodeError, TypeError):
             seed = int(time.time())
+            count = 1
+
+        subfolder = "gacha" if count <= 1 else f"gacha{count}"
+        out_dir = os.path.join(folder_paths.get_output_directory(), subfolder)
+        os.makedirs(out_dir, exist_ok=True)
 
         safe_name = _sanitize_filename(artist_string)
         base_name = f"{safe_name}__{seed}__{time.perf_counter_ns()}"
@@ -213,14 +217,14 @@ class GachaSaveImage:
             pil_img = Image.fromarray(arr)
 
             png_name = f"{base_name}.png"
-            png_path = os.path.join(OUTPUT_DIR, png_name)
+            png_path = os.path.join(out_dir, png_name)
             pil_img.save(png_path)
 
             json_name = f"{base_name}.json"
-            json_path = os.path.join(OUTPUT_DIR, json_name)
+            json_path = os.path.join(out_dir, json_name)
             with open(json_path, "w", encoding="utf-8") as f:
                 f.write(metadata_json)
 
-            results.append({"filename": f"gacha/{png_name}", "subfolder": "", "type": "output"})
+            results.append({"filename": f"{subfolder}/{png_name}", "subfolder": subfolder, "type": "output"})
 
         return {"ui": {"images": results}}
