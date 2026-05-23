@@ -133,7 +133,7 @@
       "name": "@keeggy",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 2,
+      "priority": 0,
       "reviewed": true
     },
     {
@@ -229,7 +229,7 @@
       "name": "@mignon",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 2,
+      "priority": 0,
       "reviewed": true
     },
     {
@@ -245,7 +245,7 @@
       "name": "@harayutaka",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 2,
+      "priority": 0,
       "reviewed": true
     },
     {
@@ -285,7 +285,7 @@
       "name": "@fumio",
       "category": "illustrator",
       "subcategory": "厚涂半写实",
-      "priority": 2,
+      "priority": 0,
       "reviewed": true
     },
     {
@@ -293,7 +293,7 @@
       "name": "@suzuhara yuki",
       "category": "illustrator",
       "subcategory": "厚涂半写实",
-      "priority": 2,
+      "priority": 0,
       "reviewed": true
     },
     {
@@ -325,7 +325,7 @@
       "name": "@guraburu",
       "category": "illustrator",
       "subcategory": "设计感",
-      "priority": 2,
+      "priority": 0,
       "reviewed": true
     },
     {
