@@ -12,7 +12,8 @@
       "name": "@ufotable style",
       "category": "studio",
       "subcategory": "工作室",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "shaft_style",
@@ -26,7 +27,8 @@
       "name": "@trigger style",
       "category": "studio",
       "subcategory": "工作室",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "ghibli_style",
@@ -72,7 +74,8 @@
       "name": "@wit studio style",
       "category": "studio",
       "subcategory": "工作室",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "cloverworks_style",
@@ -87,14 +90,16 @@
       "name": "@sunrise style",
       "category": "studio",
       "subcategory": "工作室",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "wlop",
       "name": "@wlop",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "ask",
@@ -141,7 +146,8 @@
       "name": "@yoneyama mai",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "lack",
@@ -222,7 +228,7 @@
       "name": "@shirabi",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 2,
+      "priority": 0,
       "reviewed": true
     },
     {
@@ -267,7 +273,8 @@
       "name": "@yomu",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "sakimichan",
@@ -327,7 +334,8 @@
       "name": "@shiratama",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "itou_life",
@@ -494,7 +502,8 @@
       "name": "@suzuhara yuki",
       "category": "illustrator",
       "subcategory": "厚涂半写实",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "soejima_shigenori",
@@ -560,7 +569,8 @@
       "name": "@takehiko inoue",
       "category": "illustrator",
       "subcategory": "设计感",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "cel_shaded",
@@ -583,7 +593,8 @@
       "name": "@soft shading",
       "category": "style",
       "subcategory": "风格标签",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "90s_anime",
@@ -605,7 +616,8 @@
       "name": "@vibrant colors",
       "category": "style",
       "subcategory": "风格标签",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "pastel_colors",
@@ -619,7 +631,8 @@
       "name": "@sketch style",
       "category": "style",
       "subcategory": "风格标签",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "cyberpunk_style",
@@ -709,14 +722,16 @@
       "name": "@touhou style",
       "category": "game",
       "subcategory": "游戏美术",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "vocaloid",
       "name": "@vocaloid style",
       "category": "game",
       "subcategory": "游戏美术",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "fire_emblem",
@@ -753,7 +768,8 @@
       "name": "@zelda style",
       "category": "game",
       "subcategory": "游戏美术",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "no_artist",
