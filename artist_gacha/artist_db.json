@@ -5,572 +5,608 @@
       "name": "@ask",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "anmi",
       "name": "@anmi",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "fuzichoco",
       "name": "@fuzichoco",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "rurudo",
       "name": "@rurudo",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "yoneyama_mai",
       "name": "@yoneyama mai",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "miv4t",
       "name": "@miv4t",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "hiten",
       "name": "@hiten",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "swav",
       "name": "@swav",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "rella",
       "name": "@rella",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "liduke",
       "name": "@liduke",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "hou",
       "name": "@hou",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "torino_aqua",
       "name": "@torino aqua",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "azuuru",
       "name": "@azuuru",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "kantoku",
       "name": "@kantoku",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "abec",
       "name": "@abec",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "tony",
       "name": "@tony",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "keeggy",
       "name": "@keeggy",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "guweiz",
       "name": "@guweiz",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "rosu",
       "name": "@rosu",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "kawacy",
       "name": "@kawacy",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "hews",
       "name": "@hews",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "hxxg",
       "name": "@hxxg",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "shiratama",
       "name": "@shiratama",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "itou_life",
       "name": "@itou life",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "nababa",
       "name": "@nababa",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "hamada_yoshikadu",
       "name": "@hamada yoshikadu",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "tsurusaki_takahiro",
       "name": "@tsurusaki takahiro",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "tiv",
       "name": "@tiv",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "mignon",
       "name": "@mignon",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "namori",
       "name": "@namori",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "harayutaka",
       "name": "@harayutaka",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "gomzi",
       "name": "@gomzi",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "ganbare_duncan",
       "name": "@ganbare duncan",
       "category": "illustrator",
       "subcategory": "萌系",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "kuroduck",
       "name": "@kuroduck",
       "category": "illustrator",
       "subcategory": "厚涂半写实",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "hiroki_shiroi",
       "name": "@hiroki shiroi",
       "category": "illustrator",
       "subcategory": "厚涂半写实",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "fumio",
       "name": "@fumio",
       "category": "illustrator",
       "subcategory": "厚涂半写实",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "suzuhara_yuki",
       "name": "@suzuhara yuki",
       "category": "illustrator",
       "subcategory": "厚涂半写实",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "soejima_shigenori",
       "name": "@soejima shigenori",
       "category": "illustrator",
       "subcategory": "设计感",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "humikane_shimada",
       "name": "@humikane shimada",
       "category": "illustrator",
       "subcategory": "设计感",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "oyari_ashito",
       "name": "@oyari ashito",
       "category": "illustrator",
       "subcategory": "设计感",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "guraburu",
       "name": "@guraburu",
       "category": "illustrator",
       "subcategory": "设计感",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "saitom",
       "name": "@saitom",
       "category": "illustrator",
       "subcategory": "设计感",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "kuroboshi_kouhaku",
       "name": "@kuroboshi kouhaku",
       "category": "illustrator",
       "subcategory": "设计感",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "arknights",
       "name": "@arknights style",
       "category": "game",
       "subcategory": "游戏美术",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "no_artist",
       "name": "",
       "category": "control",
       "subcategory": "对照组",
-      "priority": 0,
-      "reviewed": true,
-      "_saved_priority": 2
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "agoto",
       "name": "@agoto",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "loundraw",
       "name": "@loundraw",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "redjuice",
       "name": "@redjuice",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "vofan",
       "name": "@vofan",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "siu",
       "name": "@siu",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "dora",
       "name": "@dora",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "hakusai",
       "name": "@hakusai",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "cait",
       "name": "@cait",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "kairi",
       "name": "@kairi",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "kase",
       "name": "@kase",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "greem",
       "name": "@greem",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "laejjo",
       "name": "@laejjo",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "sunhyun",
       "name": "@sunhyun",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "kaie",
       "name": "@kaie",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "tamaki",
       "name": "@tamaki",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "kurione",
       "name": "@kurione",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "neco",
       "name": "@neco",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "wataboku",
       "name": "@wataboku",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "iida_pochi",
       "name": "@iida pochi",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "kishida_mel",
       "name": "@kishida mel",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "pomu",
       "name": "@pomu",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "teddy",
       "name": "@teddy",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "mashu",
       "name": "@mashu",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "dino",
       "name": "@dino",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "marumiya",
       "name": "@marumiya",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "karory",
       "name": "@karory",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "kagura_yuuki",
       "name": "@kagura yuuki",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "takeda_hikari",
       "name": "@takeda hikari",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 2,
+      "reviewed": true
     },
     {
       "id": "hechima",
       "name": "@hechima",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "yamada_tarou",
       "name": "@yamada tarou",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     },
     {
       "id": "hayama_takao",
       "name": "@hayama takao",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
-      "priority": 1
+      "priority": 0,
+      "reviewed": true
     }
   ]
 }
