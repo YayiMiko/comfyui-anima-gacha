@@ -27,6 +27,10 @@ class GachaPromptBuilder:
     RETURN_NAMES = ("positive", "negative", "artist_string", "metadata_json")
 
     @classmethod
+    def IS_CHANGED(s, **kwargs):
+        return float("NaN")  # always re-execute, never cache
+
+    @classmethod
     def INPUT_TYPES(s):
         return {
             "required": {
@@ -147,7 +151,7 @@ class GachaSaveImage:
 
         safe_name = _sanitize_filename(artist_string)
         timestamp = time.strftime("%Y%m%d_%H%M%S")
-        base_name = f"{safe_name}__{seed}"
+        base_name = f"{safe_name}__{seed}__{timestamp}"
 
         results = []
         for i, image in enumerate(images):
