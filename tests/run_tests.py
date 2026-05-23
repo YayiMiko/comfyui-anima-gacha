@@ -84,7 +84,7 @@ pos, neg, art, meta_json = b.build(seed=42, artist_count=1, min_priority=1, subj
 check("1girl, test" in pos, "subject in prompt")
 check("masterpiece" in pos, "quality in prompt")
 check("@" in art, f"artist has @: {art}")
-check(neg == "worst quality, low quality, score_1, score_2, score_3, artist name", "negative default")
+check(neg == "", f"negative default empty: '{neg}'")
 
 meta = json.loads(meta_json)
 check(meta["seed"] == 42, f"seed={meta['seed']}")

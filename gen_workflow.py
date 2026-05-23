@@ -26,8 +26,8 @@ wf = {
             ],
             "properties": {"Node name for S&R": "GachaPromptBuilder"},
             "widgets_values": [0, 1, 1, "",
-                "newest, masterpiece, best quality, score_7, score_8, highres",
-                "worst quality, low quality, score_1, score_2, score_3, artist name"],
+                "masterpiece",
+                ""],
         },
         # --- Node 2: UNETLoader ---
         {
@@ -156,7 +156,7 @@ wf = {
                 {"name": "LATENT", "type": "LATENT", "links": [12], "slot_index": 0},
             ],
             "properties": {"cnr_id": "comfy-core", "ver": "0.3.40", "Node name for S&R": "KSampler"},
-            "widgets_values": [0, "randomize", 12, 3.5, "er_sde", "beta57", 1.0],
+            "widgets_values": [0, "randomize", 12, 1.0, "er_sde", "simple", 1.0],
         },
         # --- Node 10: VAEDecode ---
         {

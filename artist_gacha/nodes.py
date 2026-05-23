@@ -44,14 +44,14 @@ class GachaPromptBuilder:
                 "quality": (
                     "STRING",
                     {
-                        "default": "newest, masterpiece, best quality, score_7, score_8, highres",
+                        "default": "masterpiece",
                         "multiline": False,
                     },
                 ),
                 "negative": (
                     "STRING",
                     {
-                        "default": "worst quality, low quality, score_1, score_2, score_3, artist name",
+                        "default": "",
                         "multiline": False,
                     },
                 ),
@@ -65,8 +65,8 @@ class GachaPromptBuilder:
         min_priority,
         subject="",
         extra_tags="",
-        quality="newest, masterpiece, best quality, score_7, score_8, highres",
-        negative="worst quality, low quality, score_1, score_2, score_3, artist name",
+        quality="masterpiece",
+        negative="",
     ):
         artists = self._load_artists(min_priority)
         subjects = self._load_subjects()

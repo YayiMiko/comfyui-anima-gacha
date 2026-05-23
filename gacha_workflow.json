@@ -116,8 +116,8 @@
         1,
         1,
         "",
-        "newest, masterpiece, best quality, score_7, score_8, highres",
-        "worst quality, low quality, score_1, score_2, score_3, artist name"
+        "masterpiece",
+        ""
       ]
     },
     {
@@ -620,9 +620,9 @@
         0,
         "randomize",
         12,
-        3.5,
+        1.0,
         "er_sde",
-        "beta57",
+        "simple",
         1.0
       ]
     },
