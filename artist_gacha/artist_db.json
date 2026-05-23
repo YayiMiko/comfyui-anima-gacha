@@ -1,27 +1,6 @@
 {
   "artists": [
     {
-      "id": "kyoani_style",
-      "name": "@kyoani style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 1
-    },
-    {
-      "id": "shaft_style",
-      "name": "@shaft style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 1
-    },
-    {
-      "id": "madhouse_style",
-      "name": "@madhouse style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 1
-    },
-    {
       "id": "ask",
       "name": "@ask",
       "category": "illustrator",
@@ -341,75 +320,12 @@
       "priority": 1
     },
     {
-      "id": "90s_anime",
-      "name": "@90s anime style",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 1
-    },
-    {
-      "id": "pastel_colors",
-      "name": "@pastel colors",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 1
-    },
-    {
-      "id": "cyberpunk_style",
-      "name": "@cyberpunk style",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 1
-    },
-    {
-      "id": "cinematic_digital_art",
-      "name": "@cinematic digital art",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 1
-    },
-    {
       "id": "arknights",
       "name": "@arknights style",
       "category": "game",
       "subcategory": "游戏美术",
       "priority": 2,
       "reviewed": true
-    },
-    {
-      "id": "fate_grand_order",
-      "name": "@fate grand order style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 1
-    },
-    {
-      "id": "azur_lane",
-      "name": "@azur lane style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 1
-    },
-    {
-      "id": "blue_archive",
-      "name": "@blue archive style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 1
-    },
-    {
-      "id": "final_fantasy",
-      "name": "@final fantasy style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 1
-    },
-    {
-      "id": "xenoblade",
-      "name": "@xenoblade style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 1
     },
     {
       "id": "no_artist",
