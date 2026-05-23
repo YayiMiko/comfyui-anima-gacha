@@ -28,7 +28,7 @@ class GachaPromptBuilder:
 
     @classmethod
     def IS_CHANGED(s, **kwargs):
-        return float("NaN")  # always re-execute, never cache
+        return time.perf_counter_ns()
 
     @classmethod
     def INPUT_TYPES(s):
@@ -150,8 +150,7 @@ class GachaSaveImage:
             seed = int(time.time())
 
         safe_name = _sanitize_filename(artist_string)
-        timestamp = time.strftime("%Y%m%d_%H%M%S")
-        base_name = f"{safe_name}__{seed}__{timestamp}"
+        base_name = f"{safe_name}__{seed}__{time.perf_counter_ns()}"
 
         results = []
         for i, image in enumerate(images):

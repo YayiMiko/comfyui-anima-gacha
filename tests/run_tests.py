@@ -125,6 +125,47 @@ check("ui" in result and len(result["ui"]["images"]) == 1, "save returns 1 image
 fname = result["ui"]["images"][0]["filename"]
 check("gacha/test_artist" in fname, f"filename: {fname}")
 
+# ── 4. Deployment verification ──
+print("=== 4. 部署校验 ===")
+
+DEPLOY_DIR = os.path.join(COMFYUI_ROOT, "custom_nodes", "artist_gacha")
+check(os.path.isdir(DEPLOY_DIR), f"deploy dir exists: {DEPLOY_DIR}")
+
+deploy_files = {
+    "nodes.py": os.path.join(PROJECT_DIR, "artist_gacha", "nodes.py"),
+    "__init__.py": os.path.join(PROJECT_DIR, "artist_gacha", "__init__.py"),
+    "artist_db.json": os.path.join(PROJECT_DIR, "artist_gacha", "artist_db.json"),
+    "prompt_templates.json": os.path.join(PROJECT_DIR, "artist_gacha", "prompt_templates.json"),
+}
+wf_src = os.path.join(PROJECT_DIR, "gacha_workflow.json")
+wf_dst = os.path.join(COMFYUI_ROOT, "user", "default", "workflows", "gacha_workflow.json")
+
+all_synced = True
+for name, src in deploy_files.items():
+    dst = os.path.join(DEPLOY_DIR, name)
+    if not os.path.exists(dst):
+        check(False, f"deployed {name}: MISSING")
+        all_synced = False
+    else:
+        with open(src, "rb") as fs, open(dst, "rb") as fd:
+            same = fs.read() == fd.read()
+            check(same, f"deployed {name}: {'synced' if same else 'STALE - need redeploy'}")
+            if not same:
+                all_synced = False
+
+if os.path.exists(wf_src) and os.path.exists(wf_dst):
+    with open(wf_src, "rb") as fs, open(wf_dst, "rb") as fd:
+        wf_same = fs.read() == fd.read()
+        check(wf_same, f"deployed workflow: {'synced' if wf_same else 'STALE - need redeploy'}")
+        if not wf_same:
+            all_synced = False
+else:
+    check(False, f"workflow file missing (src={os.path.exists(wf_src)} dst={os.path.exists(wf_dst)})")
+    all_synced = False
+
+if not all_synced:
+    print("\n  *** 有文件未同步，请重新部署后重试 ***")
+
 # ── Summary ──
 print(f"\n{'='*40}")
 print(f"  {passed} passed, {failed} failed, {passed+failed} total")
