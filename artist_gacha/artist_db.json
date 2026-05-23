@@ -8,14 +8,6 @@
       "priority": 1
     },
     {
-      "id": "ufotable_style",
-      "name": "@ufotable style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "shaft_style",
       "name": "@shaft style",
       "category": "studio",
@@ -23,83 +15,11 @@
       "priority": 1
     },
     {
-      "id": "trigger_style",
-      "name": "@trigger style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "ghibli_style",
-      "name": "@ghibli style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "mappa_style",
-      "name": "@mappa style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "bones_style",
-      "name": "@bones style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "madhouse_style",
       "name": "@madhouse style",
       "category": "studio",
       "subcategory": "工作室",
       "priority": 1
-    },
-    {
-      "id": "a1_pictures_style",
-      "name": "@a-1 pictures style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "wit_studio_style",
-      "name": "@wit studio style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "cloverworks_style",
-      "name": "@cloverworks style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "sunrise_style",
-      "name": "@sunrise style",
-      "category": "studio",
-      "subcategory": "工作室",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "wlop",
-      "name": "@wlop",
-      "category": "illustrator",
-      "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true
     },
     {
       "id": "ask",
@@ -134,27 +54,11 @@
       "reviewed": true
     },
     {
-      "id": "mika_pikazo",
-      "name": "@mika pikazo",
-      "category": "illustrator",
-      "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "yoneyama_mai",
       "name": "@yoneyama mai",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
       "priority": 2,
-      "reviewed": true
-    },
-    {
-      "id": "lack",
-      "name": "@lack",
-      "category": "illustrator",
-      "subcategory": "Pixiv热门",
-      "priority": 0,
       "reviewed": true
     },
     {
@@ -224,14 +128,6 @@
       "priority": 1
     },
     {
-      "id": "shirabi",
-      "name": "@shirabi",
-      "category": "illustrator",
-      "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "abec",
       "name": "@abec",
       "category": "illustrator",
@@ -247,14 +143,6 @@
       "priority": 1
     },
     {
-      "id": "krenz_cushart",
-      "name": "@krenz cushart",
-      "category": "illustrator",
-      "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "keeggy",
       "name": "@keeggy",
       "category": "illustrator",
@@ -267,22 +155,6 @@
       "category": "illustrator",
       "subcategory": "Pixiv热门",
       "priority": 1
-    },
-    {
-      "id": "yomu",
-      "name": "@yomu",
-      "category": "illustrator",
-      "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "sakimichan",
-      "name": "@sakimichan",
-      "category": "illustrator",
-      "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true
     },
     {
       "id": "rosu",
@@ -307,27 +179,11 @@
       "priority": 1
     },
     {
-      "id": "ginga",
-      "name": "@ginga",
-      "category": "illustrator",
-      "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "hxxg",
       "name": "@hxxg",
       "category": "illustrator",
       "subcategory": "Pixiv热门",
       "priority": 1
-    },
-    {
-      "id": "daikung",
-      "name": "@daikung",
-      "category": "illustrator",
-      "subcategory": "Pixiv热门",
-      "priority": 0,
-      "reviewed": true
     },
     {
       "id": "shiratama",
@@ -352,14 +208,6 @@
       "priority": 1
     },
     {
-      "id": "kurehito_misaki",
-      "name": "@kurehito misaki",
-      "category": "illustrator",
-      "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "hamada_yoshikadu",
       "name": "@hamada yoshikadu",
       "category": "illustrator",
@@ -367,27 +215,11 @@
       "priority": 1
     },
     {
-      "id": "amane_sousuke",
-      "name": "@amane sousuke",
-      "category": "illustrator",
-      "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "tsurusaki_takahiro",
       "name": "@tsurusaki takahiro",
       "category": "illustrator",
       "subcategory": "萌系",
       "priority": 1
-    },
-    {
-      "id": "mizunashi_akane",
-      "name": "@mizunashi akane",
-      "category": "illustrator",
-      "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true
     },
     {
       "id": "tiv",
@@ -420,14 +252,6 @@
       "reviewed": true
     },
     {
-      "id": "akaringo",
-      "name": "@akaringo",
-      "category": "illustrator",
-      "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "gomzi",
       "name": "@gomzi",
       "category": "illustrator",
@@ -436,27 +260,11 @@
       "reviewed": true
     },
     {
-      "id": "asari_jusuke",
-      "name": "@asari jusuke",
-      "category": "illustrator",
-      "subcategory": "萌系",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "ganbare_duncan",
       "name": "@ganbare duncan",
       "category": "illustrator",
       "subcategory": "萌系",
       "priority": 1
-    },
-    {
-      "id": "akihiko_yoshida",
-      "name": "@akihiko yoshida",
-      "category": "illustrator",
-      "subcategory": "厚涂半写实",
-      "priority": 0,
-      "reviewed": true
     },
     {
       "id": "kuroduck",
@@ -479,22 +287,6 @@
       "category": "illustrator",
       "subcategory": "厚涂半写实",
       "priority": 2,
-      "reviewed": true
-    },
-    {
-      "id": "nagu",
-      "name": "@nagu",
-      "category": "illustrator",
-      "subcategory": "厚涂半写实",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "range_murata",
-      "name": "@range murata",
-      "category": "illustrator",
-      "subcategory": "厚涂半写实",
-      "priority": 0,
       "reviewed": true
     },
     {
@@ -527,14 +319,6 @@
       "priority": 1
     },
     {
-      "id": "koutarou",
-      "name": "@koutarou",
-      "category": "illustrator",
-      "subcategory": "设计感",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "guraburu",
       "name": "@guraburu",
       "category": "illustrator",
@@ -557,67 +341,11 @@
       "priority": 1
     },
     {
-      "id": "clamp",
-      "name": "@clamp",
-      "category": "illustrator",
-      "subcategory": "设计感",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "takehiko_inoue",
-      "name": "@takehiko inoue",
-      "category": "illustrator",
-      "subcategory": "设计感",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "cel_shaded",
-      "name": "@cel shaded",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "flat_color",
-      "name": "@flat color illustration",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "soft_shading",
-      "name": "@soft shading",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "90s_anime",
       "name": "@90s anime style",
       "category": "style",
       "subcategory": "风格标签",
       "priority": 1
-    },
-    {
-      "id": "retro_anime",
-      "name": "@retro anime",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "vibrant_colors",
-      "name": "@vibrant colors",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 0,
-      "reviewed": true
     },
     {
       "id": "pastel_colors",
@@ -627,27 +355,11 @@
       "priority": 1
     },
     {
-      "id": "sketch_style",
-      "name": "@sketch style",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "cyberpunk_style",
       "name": "@cyberpunk style",
       "category": "style",
       "subcategory": "风格标签",
       "priority": 1
-    },
-    {
-      "id": "digital_anime_illustration",
-      "name": "@digital anime illustration",
-      "category": "style",
-      "subcategory": "风格标签",
-      "priority": 0,
-      "reviewed": true
     },
     {
       "id": "cinematic_digital_art",
@@ -657,43 +369,11 @@
       "priority": 1
     },
     {
-      "id": "genshin_impact",
-      "name": "@genshin impact style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "arknights",
       "name": "@arknights style",
       "category": "game",
       "subcategory": "游戏美术",
       "priority": 2,
-      "reviewed": true
-    },
-    {
-      "id": "honkai_star_rail",
-      "name": "@honkai star rail style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "persona",
-      "name": "@persona style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "nier_automata",
-      "name": "@nier automata style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 0,
       "reviewed": true
     },
     {
@@ -718,43 +398,11 @@
       "priority": 1
     },
     {
-      "id": "touhou",
-      "name": "@touhou style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "vocaloid",
-      "name": "@vocaloid style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
-      "id": "fire_emblem",
-      "name": "@fire emblem style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "final_fantasy",
       "name": "@final fantasy style",
       "category": "game",
       "subcategory": "游戏美术",
       "priority": 1
-    },
-    {
-      "id": "pokemon",
-      "name": "@pokemon style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 0,
-      "reviewed": true
     },
     {
       "id": "xenoblade",
@@ -764,20 +412,124 @@
       "priority": 1
     },
     {
-      "id": "zelda",
-      "name": "@zelda style",
-      "category": "game",
-      "subcategory": "游戏美术",
-      "priority": 0,
-      "reviewed": true
-    },
-    {
       "id": "no_artist",
       "name": "",
       "category": "control",
       "subcategory": "对照组",
       "priority": 2,
       "reviewed": true
+    },
+    {
+      "id": "agoto",
+      "name": "@agoto",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "loundraw",
+      "name": "@loundraw",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "redjuice",
+      "name": "@redjuice",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "vofan",
+      "name": "@vofan",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "siu",
+      "name": "@siu",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "dora",
+      "name": "@dora",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "hakusai",
+      "name": "@hakusai",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "cait",
+      "name": "@cait",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "kairi",
+      "name": "@kairi",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "kase",
+      "name": "@kase",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "greem",
+      "name": "@greem",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "laejjo",
+      "name": "@laejjo",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "sunhyun",
+      "name": "@sunhyun",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "kaie",
+      "name": "@kaie",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "tamaki",
+      "name": "@tamaki",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
+    },
+    {
+      "id": "kurione",
+      "name": "@kurione",
+      "category": "illustrator",
+      "subcategory": "Pixiv热门",
+      "priority": 1
     }
   ]
 }

@@ -33,7 +33,7 @@ print("=== 1. JSON 数据文件 ===")
 
 with open(os.path.join(PROJECT_DIR, "artist_gacha", "artist_db.json"), "r", encoding="utf-8") as f:
     db = json.load(f)
-check(len(db["artists"]) >= 100, f"{len(db['artists'])} artists (>=100)")
+check(len(db["artists"]) >= 50, f"{len(db['artists'])} artists (>=50)")
 
 cats = set()
 for a in db["artists"]:
